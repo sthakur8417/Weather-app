@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        app:showAsAction="ifRoom"
+        android:visible="true"
+        tools:ignore="UnusedAttribute"
+        android:id="@+id/menuItem_Units"
+        android:icon="@drawable/units_f"
+        android:title="Units"/>
+
+    <item
+        android:id="@+id/menuItem_Daily"
+        android:icon="@drawable/daily"
+        android:title="Daily Activity"
+        app:showAsAction="always"
+        android:visible="true"
+        tools:ignore="UnusedAttribute" />
+
+    <item
+        android:id="@+id/menuItem_Location"
+        android:icon="@drawable/location"
+        android:title="User Location"
+        app:showAsAction="always"
+        tools:ignore="UnusedAttribute"
+        android:visible="true"/>
+</menu>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">sudo_weather_app</string>
+    <string name="api_url">https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline</string>
+    <string name="api_key">LDVNT574MXAAK73ADRQQB42SF</string>
+</resources>
